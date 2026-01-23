@@ -1,6 +1,7 @@
 import java.util.Scanner;
 public class Delta {
 	public static void main(String[] args) {
+		
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("Nhập a: ");
@@ -22,7 +23,6 @@ public class Delta {
 		else {
 			System.out.println("Vì delta nhỏ hơn không nên không có căn");
 		}
-		
 		sc.close();
 	}
 
