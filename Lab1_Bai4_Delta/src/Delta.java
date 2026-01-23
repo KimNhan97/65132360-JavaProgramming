@@ -1,11 +1,6 @@
 import java.util.Scanner;
 public class Delta {
-
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("Nhập a: ");
@@ -17,8 +12,8 @@ public class Delta {
 		System.out.println("Nhập c: ");
 		double c = sc.nextDouble();
 		
-		double delta = b*b - 4*a*c;
-		System.out.println("Delta = "+ delta);
+		 double delta = Math.pow(b, 2) - 4 * a * c;
+		 System.out.println("Delta = "+ delta);
 		
 		if(delta >= 0 ) {
 			double canDelta = Math.sqrt(delta);
@@ -29,7 +24,6 @@ public class Delta {
 		}
 		
 		sc.close();
-		
 	}
 
 }
